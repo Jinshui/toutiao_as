@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/content_bk"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/share_body_height"
+        android:background="@drawable/share_bg"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/id_share_weichat_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:onClick="shareWeiChat"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/id_share_weichat_img"
+                android:layout_width="@dimen/share_provider_icon_width"
+                android:layout_height="@dimen/share_provider_icon_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/share_weichat"
+                android:contentDescription="@string/img_content_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/id_share_weichat_img"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/share_weichat"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/share_btn_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_share_weichat_moments_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:onClick="shareWeiChat"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/id_share_weichat_moments_img"
+                android:layout_width="@dimen/share_provider_icon_width"
+                android:layout_height="@dimen/share_provider_icon_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/share_moments"
+                android:contentDescription="@string/img_content_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/id_share_weichat_moments_img"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/share_moments"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/share_btn_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:onClick="shareWeibo"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/id_share_weibo_img"
+                android:layout_width="@dimen/share_provider_icon_width"
+                android:layout_height="@dimen/share_provider_icon_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/share_sina_weibo"
+                android:contentDescription="@string/img_content_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/id_share_weibo_img"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/share_sina_weibo"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/share_btn_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:onClick="shareQQ"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/id_share_qq_img"
+                android:layout_width="@dimen/share_provider_icon_width"
+                android:layout_height="@dimen/share_provider_icon_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/share_qq"
+                android:contentDescription="@string/img_content_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/id_share_qq_img"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/share_qq"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/share_btn_text_size" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/share_cancel_height"
+        android:layout_gravity="center"
+        android:background="@drawable/share_cancel_bg"
+        android:contentDescription="@string/img_content_description"
+        android:gravity="center"
+        android:onClick="cancelShare"
+        android:text="@string/share_cancel"
+        android:textColor="@color/red"
+        android:textSize="@dimen/share_cancel_text_size"
+        android:textStyle="bold" />
+
+</LinearLayout><!-- From: file:/home/jinshui/AndroidStudioProjects/TouTiao/touTiao/src/main/res/layout/view_news_detail_share.xml -->

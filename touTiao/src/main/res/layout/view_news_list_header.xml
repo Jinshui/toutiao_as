@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yingshi.toutiao.view.PhotoPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp" >
+
+    <!-- com.yingshi.toutiao.InnerViewPager  android.support.v4.view.ViewPager -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_photos_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/id_photo_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="2dp"
+            android:background="@color/red"
+            android:paddingBottom="1dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_photo_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/id_photo_number"
+            android:paddingBottom="1dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</com.yingshi.toutiao.view.PhotoPager>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jeremyfeinstein.slidingmenu.lib.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingmenumain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" /><!-- From: file:/home/jinshui/AndroidStudioProjects/TouTiao/slidelibrary/src/main/res/layout/slidingmenumain.xml --><!-- From: file:/home/jinshui/AndroidStudioProjects/TouTiao/touTiao/build/intermediates/exploded-aar/TouTiao/slidelibrary/unspecified/res/layout/slidingmenumain.xml -->

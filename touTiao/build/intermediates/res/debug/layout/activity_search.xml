@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content_bk"
+    android:orientation="vertical" >
+
+    <com.yingshi.toutiao.view.HeaderView
+        android:id="@+id/id_search_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/id_news_detail_tools_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/news_detail_add_comment_background_height"
+        android:background="@drawable/search_bg"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/id_search_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sousuo_sousuo"
+            android:contentDescription="@string/img_content_description"
+            android:onClick="doSearch" />
+
+        <EditText
+            android:id="@+id/id_search_keyword_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/id_search_btn"
+            android:background="@drawable/text_view_border"
+            android:gravity="center_vertical"
+            android:hint="@string/search_hint"
+            android:paddingLeft="2dp"
+            android:textSize="@dimen/news_detail_comment_size" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/id_search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout><!-- From: file:/home/jinshui/AndroidStudioProjects/TouTiao/touTiao/src/main/res/layout/activity_search.xml -->

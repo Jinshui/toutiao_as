@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    
+    
+    <dimen name="header_bar_size">60dp</dimen>
+    
+    <dimen name="title_size">24sp</dimen>
+    
+    <!-- News List -->
+    <dimen name="list_item_height">86dp</dimen>
+    <dimen name="list_item_icon_width">80dp</dimen>
+    <dimen name="list_item_icon_height">60dp</dimen>
+    <dimen name="list_item_padding_1">15dp</dimen>
+    <dimen name="list_item_padding_2">12dp</dimen>
+    <dimen name="list_item_divider_height">0.3dip</dimen>
+    
+    
+    <dimen name="comment_list_item_padding">5dp</dimen>
+    <dimen name="comment_list_item_icon_width">60dp</dimen>
+    <dimen name="comment_list_item_icon_height">60dp</dimen>
+    
+    <!-- User center -->
+    <dimen name="user_center_list_item_width">200dp</dimen>
+    <dimen name="user_center_list_item_height">60dp</dimen>
+    <dimen name="user_center_list_item_icon_width">40dp</dimen>
+    <dimen name="user_center_list_item_icon_height">40dp</dimen>
+    <dimen name="user_center_list_item_text_size">20sp</dimen>
+
+    <!-- News Detail -->
+    <dimen name="news_detail_image_height">200dp</dimen>
+    <dimen name="news_detail_title_size">20sp</dimen>
+    <dimen name="news_detail_time_size">14sp</dimen>
+    <dimen name="news_detail_text_size">18sp</dimen>
+    <dimen name="news_detail_comment_size">16sp</dimen>
+    <dimen name="news_detail_add_comment_background_height">40dp</dimen>    
+    <dimen name="news_detail_load_comments">50dp</dimen>
+    
+    <!-- Share -->
+    <dimen name="share_provider_icon_height">50dp</dimen>
+    <dimen name="share_provider_icon_width">50dp</dimen>
+    <dimen name="share_body_height">100dp</dimen>
+    <dimen name="share_cancel_height">50dp</dimen>
+    <dimen name="share_btn_text_size">16sp</dimen>
+    <dimen name="share_cancel_text_size">20sp</dimen>
+    
+    <!-- Special News -->
+    <dimen name="special_header_img_height">80dp</dimen>
+    <dimen name="special_summary_title_size">18sp</dimen>
+    <dimen name="special_summary_text_size">16sp</dimen>
+    <dimen name="special_summary_padding">8dp</dimen>
+    
+</resources>

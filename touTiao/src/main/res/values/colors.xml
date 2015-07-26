@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_text_color">#F7FF00</color>
+    <color name="action_bar_unselected">#2E2828</color>
+    <color name="action_bar_selected">#171313</color>
+    <color name="action_bar_text_color">#FFFFFF</color>
+    <color name="category_desc_color">#B5B0B2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#FF00FF</color>
+    <color name="yellow">#F7FF00</color>
+    <color name="dark_yellow">#FCD80A</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="lighter_gray">#ddd</color>
+    <color name="gray_white">#f0f0f0</color>
+    <color name="gray">#959595</color>
+    <color name="deep_gray_1">#535353</color>
+    <color name="deep_gray">#BCBCBC</color>
+    <color name="divider_color">#959595</color>
+</resources>

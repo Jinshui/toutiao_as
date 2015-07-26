@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:paddingLeft="@dimen/comment_list_item_padding"
+    android:paddingRight="@dimen/comment_list_item_padding"
+    android:paddingTop="@dimen/comment_list_item_padding" >
+
+    <com.yingshi.toutiao.view.CustomizeImageView
+        android:id="@+id/id_comment_author_thumbnail"
+        android:layout_width="@dimen/comment_list_item_icon_width"
+        android:layout_height="@dimen/comment_list_item_icon_height"
+        android:layout_above="@+id/id_item_divider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/img_content_description" />
+
+    <TextView
+        android:id="@+id/id_comment_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/id_comment_author_thumbnail"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:text="@string/list_item_sample_text" />
+
+    <TextView
+        android:id="@+id/id_comment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_comment_author"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/id_comment_author_thumbnail"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/id_item_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_divider_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/list_item_padding_2"
+        android:background="@color/divider_color" />
+
+</RelativeLayout><!-- From: file:/home/jinshui/AndroidStudioProjects/TouTiao/touTiao/src/main/res/layout/view_comment_list_item.xml -->

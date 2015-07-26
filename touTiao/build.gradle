@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.yingshi.toutiao"
+        minSdkVersion 8
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile project(':slidelibrary')
+    compile project(':library')
+    compile project(':weiboSDK')
+    compile 'com.android.support:support-v4:20.0.0'
+    compile files('libs/android-async-http-1.4.5.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/mta-sdk-1.0.0.jar')
+    compile files('libs/open_sdk.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+}
